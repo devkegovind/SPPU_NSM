@@ -8,4 +8,4 @@ all = lower + upper + number + symbol
 length = 9
 
 password = "".join(random.sample(all, length))
-print(password)
+print(f"My Password is: {password}")
